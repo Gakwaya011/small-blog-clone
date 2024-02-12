@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+
+
+
+}
+
+body {
+    display: flex;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.sideBar {
+    height: 100vh;
+    width: 250px;
+    background: #31353b;
+}
+
+.pic {
+    background: url(https://s3.envato.com/files/213706879/Beautiful%20mountain%20landscape28.jpg)no-repeat;
+    height: 190px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.links .link {
+    display: block;
+    color: rgb(184, 177, 177);
+    padding: 12px;
+    background: #31353b;
+    border: none;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.347);
+    font-size: 12px;
+
+}
+
+.text p {
+    color: black;
+    font-weight: 600;
+    padding: 32px;
+}
+
+.pic>div {
+    /* background: #ae7a7a; */
+    height: fit-content;
+    width: 65%;
+}
+
+span {
+    background: rgb(76, 76, 161);
+    color: white;
+    padding: 10px;
+    margin-top: 12px;
+    display: block;
+    width: 1%;
+    margin-left: 8px;
+}
